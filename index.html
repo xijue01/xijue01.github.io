@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>X | Personal Links</title>
+    <meta
+      name="description"
+      content="X 的个人定制化导航页，聚合社交主页、作品集、GitHub、博客与联系方式。"
+    />
+    <meta property="og:title" content="X | Personal Links" />
+    <meta
+      property="og:description"
+      content="一个带 Live 3D 卡通人物的个人定制化导航页。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/avatar.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Noto+Sans+SC:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="profile" aria-label="西决｜1000X GEM 的个人主页">
+        <div class="identity">
+          <img class="avatar-mark" src="./assets/avatar.png" alt="西决的头像" />
+          <h1>西决｜1000X GEM</h1>
+          <p class="bio">记录负债100w自救过程，分享链上机会、扫链工具和实盘思路。</p>
+        </div>
+
+        <nav class="links" aria-label="个人导航链接">
+          <a class="link primary" href="https://t.me/necydcy" target="_blank" rel="noreferrer">
+            <span class="link-icon avatar-icon" aria-hidden="true">
+              <img src="./assets/avatar.png" alt="" />
+            </span>
+            <span>
+              <strong>我的 Telegram</strong>
+              <small>私信交流、合作和最新动态</small>
+            </span>
+          </a>
+          <a class="link" href="https://t.me/matr1x_xijue" target="_blank" rel="noreferrer">
+            <span class="link-icon avatar-icon community-icon" aria-hidden="true">
+              <img src="./assets/community-avatar.png" alt="" />
+            </span>
+            <span>
+              <strong>负债100w自救日记</strong>
+              <small>负债100w自救日记社群入口</small>
+            </span>
+          </a>
+          <a class="link tool-link" href="https://inv.debot.ai/r/xijue?lang=zh" target="_blank" rel="noreferrer">
+            <span class="link-icon" aria-hidden="true">
+              <img src="./assets/logo-debot.ico" alt="" />
+            </span>
+            <span>
+              <strong>debot</strong>
+              <small>扫链交易工具</small>
+            </span>
+          </a>
+          <a class="link tool-link" href="https://www.xxyy.io/?ref=KeEB1u" target="_blank" rel="noreferrer">
+            <span class="link-icon" aria-hidden="true">
+              <img src="./assets/logo-xxyy.png" alt="" />
+            </span>
+            <span>
+              <strong>xxyy</strong>
+              <small>扫链交易工具</small>
+            </span>
+          </a>
+          <a class="link tool-link" href="https://gmgn.ai/r/xijue?chain=bsc" target="_blank" rel="noreferrer">
+            <span class="link-icon" aria-hidden="true">
+              <img src="./assets/logo-gmgn-brand.png" alt="" />
+            </span>
+            <span>
+              <strong>gmgn</strong>
+              <small>扫链交易工具</small>
+            </span>
+          </a>
+        </nav>
+      </section>
+    </main>
+
+    <aside class="companion" aria-label="动态头像人物">
+      <button class="companion-button" id="companionButton" type="button" aria-label="和头像人物互动">
+        <span class="companion-aura" aria-hidden="true"></span>
+        <span class="mascot3d" aria-hidden="true">
+          <img src="./assets/xijue-chibi-3d.png" alt="" />
+          <span class="companion-shine"></span>
+          <span class="mascot-smile"></span>
+          <span class="mascot-blush left"></span>
+          <span class="mascot-blush right"></span>
+        </span>
+        <span class="companion-shadow" aria-hidden="true"></span>
+      </button>
+    </aside>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
