@@ -1,0 +1,43 @@
+.link-icon.channel-icon {
+  border-color: rgba(246, 189, 22, 0.8);
+}
+
+.link:nth-child(3) {
+  --tab-color: #f6bd16;
+}
+
+.link:nth-child(3) .link-icon.avatar-icon {
+  background: #101114;
+}
+
+.link:nth-child(4) {
+  --tab-color: #f6bd16;
+}
+
+.link:nth-child(4) .link-icon {
+  background:
+    radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.42), transparent 34%),
+    #f6bd16;
+}
+
+.link:nth-child(5) {
+  --tab-color: #8b6cff;
+}
+
+.link:nth-child(5) .link-icon {
+  background: #101114;
+  border: 1px solid color-mix(in srgb, #8b6cff 52%, transparent);
+}
+
+.link:nth-child(6) {
+  --tab-color: #70e85d;
+}
+
+.link:nth-child(6) .link-icon {
+  background: #101114;
+  border: 1px solid color-mix(in srgb, #70e85d 52%, transparent);
+}
+
+.link:nth-child(6) .link-icon img {
+  width: 31px;
+}
